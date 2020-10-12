@@ -9,10 +9,10 @@ import React from 'react';
 // }
 
 const App = () => {
-  // hooks!!!
+  const name = 'Joey'
   return (
     <div>
-      <h1>Hello React! :D</h1>
+      <h1>Hello {name}! :D</h1>
     </div>
   )
 }
